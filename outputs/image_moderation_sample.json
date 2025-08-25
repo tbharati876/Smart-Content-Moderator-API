@@ -1,0 +1,10 @@
+{
+  "request_id": 2,
+  "classification": "toxic",
+  "confidence": 0.95,
+  "reasoning": "Simple heuristic classification: 'toxic' detected with score 0.95.",
+  "llm_response": {
+    "model": "heuristic-stub",
+    "raw": "image_url:http://example.com/suspicious.jpg"
+  }
+}
