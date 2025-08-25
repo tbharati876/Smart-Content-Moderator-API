@@ -1,0 +1,10 @@
+{
+  "email": "tester@example.com",
+  "total_requests": 10,
+  "unsafe_count": 3,
+  "breakdown": {
+    "safe": 7,
+    "toxic": 2,
+    "spam": 1
+  }
+}
