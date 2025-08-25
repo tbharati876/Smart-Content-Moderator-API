@@ -50,5 +50,5 @@
 
 ## Contact & assumptions
 - The heuristic LLM stub is used for deterministic unit testing and should be replaced before production.
-- If any environment variables are required (e.g., `OPENAI_API_KEY`, `SLACK_WEBHOOK_URL`, `SMTP_...`), populate them in `.env` or your deployment environment.
+- If any environment variables are required (e.g., `OPENAI_API_KEY`, `SLACK_WEBHOOK_URL`, `SMTP_...`), populate them in `.env` or deployment.
 
