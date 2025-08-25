@@ -25,12 +25,7 @@
 
 ---
 
-## Files to upload to GitHub
-Copy the `app/`, `tests/`, `requirements.txt`, `README.md`, and `outputs/` directories/files into your repository root as-is.
-
----
-
-## How the endpoints behave (documentation)
+## How the endpoints behave
 - `POST /api/v1/moderate/text`
   - Body: `{ "email": "...", "text": "..." }`
   - Returns 201 with moderation result including classification, confidence, reasoning.
@@ -50,11 +45,6 @@ Copy the `app/`, `tests/`, `requirements.txt`, `README.md`, and `outputs/` direc
 - Add authentication, rate-limiting, and request auditing.
 - For scale: use PostgreSQL, background worker (Celery/RQ) for LLM calls, and object storage for images.
 - Add migrations (Alembic) for production DB schema changes.
-
----
-
-## Example outputs
-See `/outputs` for sample JSON responses that you can include in your GitHub repo.
 
 ---
 
