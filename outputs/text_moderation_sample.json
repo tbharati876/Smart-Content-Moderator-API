@@ -1,0 +1,10 @@
+{
+  "request_id": 1,
+  "classification": "safe",
+  "confidence": 0.99,
+  "reasoning": "Simple heuristic classification: 'safe' detected with score 0.99.",
+  "llm_response": {
+    "model": "heuristic-stub",
+    "raw": "Hello, this is an example safe message."
+  }
+}
